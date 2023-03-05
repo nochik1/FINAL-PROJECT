@@ -94,6 +94,7 @@ li{
     margin-left: 175px;
 }
 .p1{
+    font-family: "Lucida Console", "Courier New", monospace;
     width: 400px;
     padding-top: 20px;
     padding-bottom: 50px;
@@ -128,4 +129,61 @@ body{
     background: rgb(2,0,36);
     background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(15,15,205,1) 0%, rgba(0,212,255,1) 100%);
 }
+* {
+    box-sizing: border-box;
+  }
   
+  img {
+    max-width: 100%;
+    vertical-align: top;
+  }
+  
+  .gallery {
+    display: flex;
+    margin: 10px auto;
+    max-width: 600px;
+    position: relative;
+    padding-top: 66.6666666667%;
+  }
+  @media screen and (min-width: 600px) {
+    .gallery {
+      padding-top: 400px;
+    }
+  }
+  .gallery__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .gallery__thumb {
+    padding-top: 6px;
+    margin: 6px;
+    display: block;
+  }
+  .gallery__selector {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .gallery__selector:checked + .gallery__img {
+    opacity: 1;
+  }
+  .gallery__selector:checked ~ .gallery__thumb > img {
+    box-shadow: 0 0 0 3px #0be2f6;
+  }
+.photo2{
+    width: 500px;
+    height: 400px;
+    margin-left: 800px;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+.photo3{
+    width: 500px;
+    height: 400px;
+    margin-left: 800px;
+    border-radius: 30px;
+    margin-top: 50px;
+}
