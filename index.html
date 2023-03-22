@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/media.css">
@@ -12,19 +13,46 @@
         <title>Document</title>
     </head>
     <body>
-        <a href="https://geolab.edu.ge/">
-        <img class="sss"src="foto/photo2.jpg" alt="loGO">
-        </a>
         <header>
-            <nav>
-                <ul>
-                    <li><a href="#">HOME PAGE</a></li>
-                    <li><a href="pages/galleries.html">GALLERIES</a></li>
-                    <li><a href="pages/discover.html">DISCOVER</a></li>
-                    <li><a href="pages/article.html">ARTICLE</a></li>
-                    <li><a href="pages/banners.html">BANNERS</a></li>
-                </ul>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Home page</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="pages/galleries.html">Galleries</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="pages/discover.html">Discover</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="pages/banners.html">Banners</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="pages/article.html">Article</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
             </nav>
+            <a class="sss" href="https://geolab.edu.ge/">
+                <img class="sss" src="foto/photo2.jpg" alt="loGO">
+            </a>
         </header>
         <section>
             <div class="container">
@@ -38,9 +66,10 @@
                             <input type="text" id="namesurname" name="namesurname" placeholder="name / surname">
                             <input type="email" id="email" name="email" placeholder="email">
                             <input class="input1" type="submit" value="LOG IN" style="background: rgb(34,193,195);
-                            background: linear-gradient(0deg, rgba(34,193,195,1) -15%, rgba(50,51,255,1) 1%);">
+                            background: linear-gradient(0deg, rgba(34,193,195,1) -15%, rgba(32,182,199,1) -12%, rgba(24,136,213,1) 0%, rgba(0,0,255,1) 0%, rgba(21,117,219,1) 0%, rgba(255,255,255,0.9501050420168067) 100%);">
                             <input type="submit" value="Registration" style="background: rgb(34,193,195);
-                            background: linear-gradient(0deg, rgba(34,193,195,1) -15%, rgba(50,51,255,1) 1%);">
+                            background: linear-gradient(0deg, rgba(34,193,195,1) -15%, rgba(32,182,199,1) -12%, rgba(24,136,213,1) 0%, rgba(0,0,255,1) 0%, rgba(21,117,219,1) 0%, rgba(255,255,255,0.9501050420168067) 100%);">
+
                         </div>
                     </form>
                 </div>
@@ -58,7 +87,7 @@
                     <h6>Six Nights in Namibia</h6>
                     <p class="p1">We arrive at Kulala desert lodge in a 4 seater Cessna from Windhoek 32 hours after we left home. A huge barman called Christopher greeted us with a smile, ice cold cloths and a ginger and lime shot.</p>
                 </div>
-                <img src="foto/photo.jpg" alt="france" class="photo1">
+                <img src="foto/india1.jpg" alt="france" class="photo1">
                 <img src="foto/india3.jpg" alt="" class="photo2">
                 <img src="foto/india2.jpg" alt="" class="photo3">
                 <img src="foto/photo4.jpg" alt="" class="photo4">
@@ -135,5 +164,6 @@
                 </div>
             </footer>
         </section>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     </body>
 </html>

@@ -32,7 +32,7 @@ body{
     padding: 24px 20px;
     border: 2px solid #E8E8E8;
     background: rgb(34,193,195);
-    background: linear-gradient(0deg, rgba(34,193,195,1) -15%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(0deg, rgba(34,193,195,1) -15%, rgba(54,54,62,1) 1%);
 }
     
 .textarea-box::placeholder{
@@ -54,13 +54,12 @@ body{
     width: 100%;
     height: 60px;
     padding: 24px 20px;
-    border: 2px solid #313475f3;
     text-align: center;
     background: rgb(34,193,195);
-    background: linear-gradient(0deg, rgba(34,193,195,1) -15%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(0deg, rgba(34,193,195,1) -15%, rgba(54,54,62,1) 1%);
 }
 input[type=submit] {
-    background-color: #5863F8;
+    
     
     font-size: 14px;
 }
@@ -82,7 +81,9 @@ input[type=submit] {
 }
 header{
     display: inline-block;
-    vertical-align: middle;
+    vertical-align:middle;
+    width: 100%;
+
 }
 .activate{
     color: hsl(0, 94%, 50%);
@@ -135,8 +136,8 @@ h2{
     margin-top: 70px;
 }
 body{
-    background: rgb(2,0,36);
-    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(15,15,205,1) 0%, rgba(0,212,255,1) 100%);
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) -15%, rgba(152,152,153,1) 1%);
 }
 * {
     box-sizing: border-box;
@@ -224,7 +225,7 @@ body{
 }
 .footer{
     background-color: #24262b;
-    padding: 70px 0;
+    padding: 70px 50px;
     
     
     
@@ -239,8 +240,9 @@ body{
 
 }
 .footer-col{
-    width: 25%;
+    width: 30%;
     padding: 0 15px;
+    margin-left: 80px;
 }
 .footer-col h4{
     font-size: 18px;
@@ -304,4 +306,10 @@ body{
     .footer-col{
         width: 100%;
     }
+}
+.container-fluid{
+    display: inline-block;
+    vertical-align: middle;
+    width:100%;
+    height: 100%;
 }
