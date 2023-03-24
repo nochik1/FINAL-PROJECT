@@ -69,10 +69,10 @@ input[type=submit] {
     font-weight: 400;
     line-height: 16px;
     font-style: normal;
-    padding: 20px 20px;
+    padding: 20px 0px;
 }
 .sss{
-    display: inline-block;
+    display:inline-block;
     width: 100px;
     height: 100px;
     border-radius: 50px;
@@ -83,6 +83,9 @@ header{
     display: inline-block;
     vertical-align:middle;
     width: 100%;
+    position: fixed;
+	top: 0;
+	z-index: 100;
 
 }
 .activate{
@@ -136,6 +139,7 @@ h2{
     margin-top: 70px;
 }
 body{
+    margin-top: 200px;
     background: rgb(34,193,195);
     background: linear-gradient(0deg, rgba(34,193,195,1) -15%, rgba(152,152,153,1) 1%);
 }
@@ -378,4 +382,10 @@ galleries.html{
     margin-left: 90px;
     margin-top: -80px;
     font-family: 'Fasthand', cursive;
+}
+.navbar-collapse ul li{
+    margin-left: 30px;
+}
+.navbar-brand{
+    margin-left: 50px;
 }
