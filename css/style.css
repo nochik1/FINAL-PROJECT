@@ -361,3 +361,21 @@ galleries.html{
     margin-left: 1010px;
     
 }
+.textbox{
+    display: flex;
+    position: absolute;
+    font-size: 30px;
+    margin-left: 1150px;
+    margin-top: -80px;
+    font-family: 'Fasthand', cursive;
+
+    
+}
+.textbox1{
+    display: flex;
+    position: absolute;
+    font-size: 30px;
+    margin-left: 90px;
+    margin-top: -80px;
+    font-family: 'Fasthand', cursive;
+}
