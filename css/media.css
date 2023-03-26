@@ -1,14 +1,90 @@
-@media(max-width:1200px) {
-    .container{
-        width: 90%;
+@media(max-width: 767px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
     }
 }
-@media(max-width:750px){
-    .info-box{
+@media(max-width: 574px){
+    .footer-col{
+        width: 50%;
+        
+    }
+}
+@media(max-width: 767px){
+    .smol-box{
+        width: 50%;
+        margin: auto;
+    }
+    .p2{
         width: 100%;
     }
-    .info-box > h2,
-    h6 {
-        text-align: center;
+    .p1{
+        width: 50%;
+        margin: auto;
     }
+}
+@media(max-width: 574px){
+    .smol-box{
+        width: 50%;
+        margin-left: 150px;
+        
+    }
+    .p2{
+        font-size: 30px;
+        margin-left: -180px;
+        margin-top: -100px;
+    }
+    .p1 {
+        width: 50%; 
+        display: none; 
+    }
+    h2, h6{
+        display: none;
+    }
+}
+@media(max-width: 800px){
+    .photo1{
+        width: 50%;
+        margin: auto;
+    }
+    .photo2{
+        width: 50%;
+        margin: auto;
+    }
+    .photo3{
+        width: 50%;
+        margin: auto;
+    }
+    .photo4{
+        width: 50%;
+        margin: auto;
+    }
+}
+@media(max-width: 600px){
+    .photo1{
+        width: 80%;
+        height: 35%;
+        margin-left: -140px;
+        margin-top: 30px;
+        
+    }
+    .photo2{
+        width: 80%;
+        height: 35%;
+        margin-left: -140px;
+        margin-top: 250px;
+    }
+    .photo3{
+        width: 80%;
+        height: 35%;
+        margin-left: -140px;
+        margin-top: 470px;
+    }
+    .photo4{
+        width: 80%;
+        height: 35%;
+        margin-left: -140px;
+        margin-top: 690px;
+    }
+
 }
