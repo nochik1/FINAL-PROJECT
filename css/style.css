@@ -198,10 +198,9 @@ h2{
     margin-top: 70px;
 }
 body{
-    background: rgb(34,193,195);
-    background: -webkit-gradient(linear, left bottom, left top, color-stop(-15%, rgba(34,193,195,1)), color-stop(1%, rgba(152,152,153,1)));
-    background: -o-linear-gradient(bottom, rgba(34,193,195,1) -15%, rgba(152,152,153,1) 1%);
-    background: linear-gradient(0deg, rgba(34,193,195,1) -15%, rgba(152,152,153,1) 1%);
+    background: #e6dada; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #e6dada, #274046); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #e6dada, #274046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 * {
@@ -478,6 +477,18 @@ body{
 }
 .map{
     margin-top: 150px;
+    margin-left: 10px;
     width: 100%;
     height: 100%;
+}
+.carousel-p{
+    display: flex;
+    position: absolute;
+    font-size: 30px;
+    margin-left: 40%;
+
+    
+}
+.d-block{
+    width: 1000px;
 }
