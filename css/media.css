@@ -103,7 +103,7 @@
         
     }
 }
-@media(max-width: 350px){
+@media(max-width: 400px){
     header{
         display: flex;
         width: 100%;
@@ -140,20 +140,30 @@
 @media(max-width: 574px){
     .carousel-inner{
         display: flex;
-        width: 450px;
-        height: 400px;
-        margin-top: 500px;
-        margin-left: -790px;
-    }
-
-}
-@media(max-width: 350px){
-    .carousel-inner{
-        display: flex;
         width: 400px;
         height: 300px;
         margin-top: 500px;
-        margin-left: -790px;
+        margin-left: -800px;
+        
+    }
+}
+@media(max-width: 400px){
+    .carousel-inner{
+        display: flex;
+        width: 350px;
+        height: 300px;
+        margin-top: 500px;
+        margin-left: -800px;
+        
+    }
+    .carousel-control-prev{
+        margin-left: -1100px;
+        margin-top: -50px;
+    }
+    .carousel-control-next{
+        margin-right: 800px;
+        margin-top: -50px;
+
     }
 
 }
