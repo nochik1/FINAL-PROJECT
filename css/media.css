@@ -103,6 +103,13 @@
         
     }
 }
+@media(max-width: 350px){
+    header{
+        display: flex;
+        width: 100%;
+        
+    }
+}
 @media(max-width: 1525px){
     .photo-box{
         width: 100%;
@@ -135,6 +142,16 @@
         display: flex;
         width: 450px;
         height: 400px;
+        margin-top: 500px;
+        margin-left: -790px;
+    }
+
+}
+@media(max-width: 350px){
+    .carousel-inner{
+        display: flex;
+        width: 400px;
+        height: 300px;
         margin-top: 500px;
         margin-left: -790px;
     }
