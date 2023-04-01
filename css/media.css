@@ -140,8 +140,8 @@
 @media(max-width: 574px){
     .carousel-inner{
         display: flex;
-        width: 400px;
-        height: 300px;
+        width: 450px;
+        height: 350px;
         margin-top: 500px;
         margin-left: -800px;
         
